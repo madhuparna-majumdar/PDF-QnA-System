@@ -17,7 +17,7 @@ This repository contains the implementation of a **PDF-based Question Answering 
   - Images are encoded into **base64 format** for seamless integration with prompts.  
 
 - **Embeddings & Vector Store**
-  - Extracted text is chunked and embedded using **Amazon Titan Embeddings (`amazon.titan-embed-text-v2`)**.  
+  - Extracted text is chunked and embedded using **Amazon Titan (`amazon.titan-embed-text-v2`)**.  
   - Embedded vectors are stored in a **FAISS vector store** for efficient semantic similarity search.  
 
 - **Retrieval-Augmented Generation (RAG)**
